@@ -35,4 +35,14 @@ public class Funcionario {
     public void setDataNascimento(LocalDate dataNascimento) {
         this.dataNascimento = dataNascimento;
     }
+
+    @Override
+    public String toString() {
+
+        return "Funcionario{" +
+                "nome='" + nome + '\'' +
+                ", matricula=" + matricula +
+                ", dataNascimento=" + dataNascimento +
+                '}';
+    }
 }

@@ -9,10 +9,13 @@ public class Principal {
 
         System.out.println(" Bem vindo ao Bytebank");
 
-        Funcionario Ariane = new Funcionario();
-        Ariane.setNome("Ariane");
-        Ariane.setMatricula(1);
-        Ariane.setDataNascimento(LocalDate.of(1990, 2, 10));
-        System.out.println(Ariane);
+        Funcionario Layse = new Funcionario("Layse", 1, LocalDate.of(1990, 2, 10));
+        Funcionario Maria = new Funcionario("Maria", 2, LocalDate.of(1991, 5, 15));
+
+        System.out.println(Layse);
+        System.out.println(Maria);
+
+
+
     }
 }

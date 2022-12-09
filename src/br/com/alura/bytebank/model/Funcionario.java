@@ -11,6 +11,12 @@ public class Funcionario {
    private int matricula;
    private LocalDate dataNascimento;
 
+    // PARA CRIAR ESTE CONSTRUTOR O ATALHO É CONTROL+ALT+INSERT
+    public Funcionario(String nome, int matricula, LocalDate dataNascimento) {
+        this.nome = nome;
+        this.matricula = matricula;
+        this.dataNascimento = dataNascimento;
+    }
 
     public String getNome() {
         return nome;

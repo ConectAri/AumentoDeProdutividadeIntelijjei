@@ -12,6 +12,8 @@ import java.util.List;
 Aprendendo "REFATORAÇÃO": https://cursos.alura.com.br/course/intellij-idea-truques-para-aumentar-sua-produtividade-em-projetos-java/task/28761
 MÓDULO 2: Navegando e regatorando o código
 
+ESSA CLASSE NÃO FOI REFATORADA AINDA
+
  */
 
 public class RegistroDePagamentoAlpha {
